@@ -1,4 +1,4 @@
-update=Di 21 Mär 2017 20:13:40 CET
+update=Fr 24 Mär 2017 00:39:56 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -115,3 +115,13 @@ LibName83=Lattice
 LibName84=ESD_Protection
 LibName85=Altera
 LibName86=74xgxx
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

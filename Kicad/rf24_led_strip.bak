@@ -2191,7 +2191,7 @@ Connection ~ 1950 6350
 Wire Wire Line
 	1950 6250 1950 6500
 Wire Wire Line
-	1350 6350 2450 6350
+	1350 6350 2750 6350
 Wire Wire Line
 	1950 5950 2150 5950
 Connection ~ 1950 5950
@@ -2477,4 +2477,22 @@ Wire Wire Line
 	3450 6100 3450 6250
 Text Notes 2400 4900 0    60   ~ 0
 Note: Please use external fuse. No space for it
+$Comp
+L C C3
+U 1 1 58D56B58
+P 2750 6150
+F 0 "C3" H 2775 6250 50  0000 L CNN
+F 1 "10µF" H 2775 6050 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805" H 2788 6000 30  0001 C CNN
+F 3 "" H 2750 6150 60  0000 C CNN
+	1    2750 6150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2750 6000 2750 5950
+Wire Wire Line
+	2750 5950 2450 5950
+Wire Wire Line
+	2750 6350 2750 6300
+Connection ~ 2450 6350
 $EndSCHEMATC
